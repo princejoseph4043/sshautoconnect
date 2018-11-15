@@ -27,4 +27,4 @@ def sshConnect(HOST,*,USER='root',PORT=22):
 command = sshConnect(IHOST,USER=IUSER,PORT=IPORT)
 subprocess.call(command,shell=True)
 
-prince
+prince -workflow
